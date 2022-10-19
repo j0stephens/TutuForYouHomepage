@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+      @apply p-3 lg:p-4
+  }
+}
+
+body {
+  background-color: black;
+}
